@@ -1,5 +1,5 @@
 {
-  "name": "googleTranslateRfo",
+  "name": "googletranslaterfo",
   "version": "1.0.0",
   "description": "Google Translate Rfo",
   "main": "google-translate.js",
@@ -19,5 +19,13 @@
     "Rfo",
     "Language",
     "Google"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ricardo7k/googleTranslateRfo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ricardo7k/googleTranslateRfo/issues"
+  },
+  "homepage": "https://github.com/ricardo7k/googleTranslateRfo#readme"
 }
