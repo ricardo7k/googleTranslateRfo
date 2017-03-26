@@ -1,0 +1,23 @@
+{
+  "name": "googleTranslateRfo",
+  "version": "1.0.0",
+  "description": "Google Translate Rfo",
+  "main": "google-translate.js",
+  "dependencies": {
+    "express": "^4.15.2",
+    "httpdispatcher": "^2.0.1",
+    "querystring": "^0.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Caca Ferreira",
+  "license": "MIT",
+  "keywords": [
+    "Translate",
+    "Rfo",
+    "Language",
+    "Google"
+  ]
+}
