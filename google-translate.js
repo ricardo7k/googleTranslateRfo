@@ -40,6 +40,7 @@ dispatcher.onPost("/translate",function(req, res){
   var httpreq = https.request(options, function (response) {
     response.setEncoding('utf8');
     response.on('data', function (chunk) {
+      console.info(">>>>>!!!!!!" + chunk);
       var arr = String(eval(chunk)).split(",");
       var frase = '{"translations": [{"translation": "' + arr[0] + ";" + arr[1] + '"}]}'
       res.writeHeader(200, {"Content-Type": "text/plain"});
